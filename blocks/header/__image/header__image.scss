@@ -1,0 +1,10 @@
+.header__image {
+    height: 100%;
+    width: 414px;
+    filter: grayscale(1);
+    transition: all 1s ease-out;
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}

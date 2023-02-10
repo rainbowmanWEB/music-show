@@ -1,0 +1,15 @@
+.header__nav-list-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Monda', sans-serif;
+    font-size: 20.19px;
+    letter-spacing: -0.5px;
+    color: $header__logo-decoration--bg;
+    border-bottom: none;
+    text-transform: uppercase;
+
+    &:hover {
+        color: lighten($header__logo-decoration--bg, 50%);
+        border-bottom: 3px solid $header__logo-decoration--bg;
+    }
+}

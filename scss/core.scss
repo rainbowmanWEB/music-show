@@ -5,6 +5,7 @@ html {
 body {
 	position: relative;
 	margin: auto;
+	background-color: $body--bg;
 }
 
 .wrap {
@@ -13,6 +14,12 @@ body {
 }
 
 .container {
-	@include min-max (1400px, 320px);
+	@include min-max (1440px, 320px);
 	margin: auto;
+}
+
+@media (min-width: 2000px) {
+	.container {
+		max-width: calc(1440px + 20vw);
+	}
 }

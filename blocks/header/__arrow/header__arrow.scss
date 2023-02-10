@@ -1,0 +1,31 @@
+.header__arrow {
+    position: absolute;
+    width: 51px;
+    height: 112px;
+    left: 92px;
+    bottom: 98px;
+    animation: 0.5s linear infinite alternate shake_arrow;
+}
+
+@keyframes shake_arrow { 
+0% { 
+    left: 92px;
+    bottom: 98px;
+} 
+25% { 
+    left: 97px;
+    bottom: 103px;
+}
+50% { 
+    left: 97px;
+    bottom: 90px;
+}
+75% { 
+    left: 87px;
+    bottom: 103px;
+}
+100% {
+    left: 87px;
+    bottom: 93px;
+}
+}
