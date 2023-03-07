@@ -1,0 +1,27 @@
+.party-in-short {
+    background-color: $party-in-short--bg;
+    padding: 78px 290px 78px 268px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &::before {
+        content: "";
+        width: 330px;
+        height: 210px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-image: url('../images//stroke-3.png');
+        animation: 1.5s linear infinite alternate spiralScale2;
+    }
+}
+
+@keyframes spiralScale2 { 
+    0% { 
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(1.5);
+    }
+}

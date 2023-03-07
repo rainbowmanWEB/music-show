@@ -6,3 +6,4 @@ import arrow from './images/arrow.png';
 import decorate from './images/stroke-2.png';
 import headerBG from './images/header-bg.png';
 import stroke from './images/stroke.png';
+import stroke_3 from './images/stroke-3.png';
