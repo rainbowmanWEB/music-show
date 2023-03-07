@@ -1,3 +1,21 @@
 .header__info-wrap {
-    padding: 243px 253px 94px 267px;
+    padding: 200px 5px 200px 5px;
+}
+
+@media (min-width: 426px) {
+    .header__info-wrap {
+        padding: 200px 110px 200px 120px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header__info-wrap {
+        padding: 243px 253px 94px 267px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__info-wrap {
+        padding: calc(243px + 0.3vw) calc(253px + 0.3vw) calc(94px + 0.3vw) calc(267px + 0.3vw);
+    }
 }

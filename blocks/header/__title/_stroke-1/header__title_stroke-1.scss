@@ -3,4 +3,14 @@
     display: block;
     z-index: 2;
     position: relative;
+    top: 29px;
+    left: 29px;
+}
+
+@media (min-width: 426px) {
+    .header__title_stroke-1 {
+        left: auto;
+        top: auto;
+    }
+
 }

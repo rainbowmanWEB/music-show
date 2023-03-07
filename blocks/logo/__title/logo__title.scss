@@ -2,9 +2,24 @@
     font-family: 'myriad_proregular';
     font-weight: 600;
     line-height: 13px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: absolute;
     left: 34px;
     top: 17px;
     color: $header__logo-decoration--bg;
+}
+
+@media (min-width: 769px) {
+    .logo__title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .logo__title {
+        line-height: calc(13px + 0.3vw);
+        font-size: calc(1.2rem + 0.5vw);
+        left: calc(50px + 0.3vw);
+        top: calc(17px + 0.1vw);
+    }
 }

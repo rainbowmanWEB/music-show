@@ -1,5 +1,5 @@
 .header__nav-list-link_active {
-    font-size: 24.68px;
+    font-size: 2.2rem;
     color: $header__nav-list-link_active--color;
     font-weight: 700;
     border-bottom: none;
@@ -7,5 +7,17 @@
     &:hover {
         color: lighten($header__nav-list-link_active--color, 10%);
         border-bottom: 3px solid $header__nav-list-link_active--color;
+    }
+}
+
+@media (min-width: 769px) {
+    .header__nav-list-link_active {
+        font-size: 24.68px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__nav-list-link_active {
+        font-size: calc(24.68px + 0.5vw);
     }
 }

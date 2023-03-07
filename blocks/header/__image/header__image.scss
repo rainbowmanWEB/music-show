@@ -3,8 +3,23 @@
     width: 414px;
     filter: grayscale(1);
     transition: all 1s ease-out;
+    position: relative;
+    z-index: 2;
+    display: none;
 
     &:hover {
         filter: grayscale(0);
+    }
+}
+
+@media (min-width: 769px) {
+    .header__image {
+        display: block;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__image {
+        width: calc(414px + 19vw);
     }
 }

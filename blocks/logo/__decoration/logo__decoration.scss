@@ -3,4 +3,12 @@
     width: 10px;
     position: absolute;
     border-radius: 5px;
+    top: -9px;
+}
+
+@media (min-width: 2000px) {
+    .logo__decoration {
+        width: calc(10px + 0.07vw);
+        top: calc(-9px - 0.3vw);
+    }
 }

@@ -2,5 +2,20 @@
     background-color: $header__logo-decoration--bg;
     transform: rotate(-5deg);
     top: 36px;
-    left: -75px;
+    left: 5px;
+}
+
+@media (min-width: 426px) {
+    .header__quote_black {
+        top: 36px;
+        left: -75px;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .header__quote_black {
+        top: calc(36px + 4vw);
+        left: calc(-75px - 0.3vw);
+    }
 }

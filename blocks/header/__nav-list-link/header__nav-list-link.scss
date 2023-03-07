@@ -2,7 +2,7 @@
     text-decoration: none;
     font-weight: 400;
     font-family: 'Monda', sans-serif;
-    font-size: 20.19px;
+    font-size: 2rem;
     letter-spacing: -0.5px;
     color: $header__logo-decoration--bg;
     border-bottom: none;
@@ -11,5 +11,17 @@
     &:hover {
         color: lighten($header__logo-decoration--bg, 50%);
         border-bottom: 3px solid $header__logo-decoration--bg;
+    }
+}
+
+@media (min-width: 769px) {
+    .header__nav-list-link {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__nav-list-link {
+        font-size: calc(20px + 0.5vw);
     }
 }

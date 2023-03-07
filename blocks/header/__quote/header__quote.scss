@@ -1,7 +1,7 @@
 .header__quote {
     font-weight: 700;
     font-family: 'Monda', sans-serif;
-    font-size: 16.12px;
+    font-size: 1.5rem;
     letter-spacing: -0.5px;
     text-align: center;
     color: $body--bg;
@@ -10,4 +10,17 @@
     padding: 8px 40px;
     margin-left: auto;
     position: relative;
+}
+
+@media (min-width: 426px) {
+    .header__quote {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__quote {
+        font-size: calc(16px + 0.5vw);
+        padding: calc(8px + 0.3vw) calc(40px + 0.3vw);
+    }
 }

@@ -2,3 +2,10 @@
     width: 51px;
     height: 51px;
 }
+
+@media (min-width: 2000px) {
+    .logo__icon {
+        width: calc(51px + 0.9vw);
+        height: calc(51px + 0.9vw);
+    }
+}

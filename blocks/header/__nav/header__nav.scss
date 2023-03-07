@@ -1,6 +1,31 @@
 .header__nav {
     position: absolute;
-    top: 95px;
-    left: 444px;
-    width: 510px;
+    top: 20px;
+    width: 150px;
+    right: 10px;
+}
+
+@media (min-width: 426px) {
+    .header__nav {
+        top: 66px;
+        left: 254px;
+        width: 462px;
+        right: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header__nav {
+        top: 95px;
+        left: 444px;
+        width: 510px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .header__nav {
+        left: calc(444px + 0.3vw);
+        top: calc(95px + 0.3vw);
+        width: calc(510px + 8vw);
+    }
 }
