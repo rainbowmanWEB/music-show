@@ -4,6 +4,7 @@
 @import "mixins";
 @import "fonts";
 @import "core";
+@import "../blocks/button/button.scss";
 @import "../blocks/header/header.scss";
 @import "../blocks/header/__logo/header__logo.scss";
 @import "../blocks/logo/__icon/logo__icon.scss";
@@ -36,4 +37,3 @@
 @import "../blocks/party-in-short/__text/party-in-short__text.scss";
 @import "../blocks/party-in-short/__text/_important/party-in-short__text_important.scss";
 @import "../blocks/party-in-short/__button/party-in-short__button.scss";
-@import "../blocks/button/button.scss";

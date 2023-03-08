@@ -1,9 +1,11 @@
 .party-in-short {
     background-color: $party-in-short--bg;
-    padding: 78px 290px 78px 268px;
+    padding: 78px 10px 78px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
 
     &::before {
         content: "";
@@ -14,6 +16,9 @@
         bottom: 0;
         background-image: url('../images//stroke-3.png');
         animation: 1.5s linear infinite alternate spiralScale2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
     }
 }
 
@@ -23,5 +28,32 @@
     }
     100% {
         transform: scaleX(1.5);
+    }
+}
+
+@media (min-width: 426px) {
+    .party-in-short {
+        padding: 78px 110px 78px 100px;
+
+        &::before {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .party-in-short {
+        padding: 78px 290px 78px 268px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-in-short {
+        padding: calc(78px + 0.5vw) calc(290px + 0.5vw) calc(78px + 0.5vw) calc(268px + 0.5vw);
+
+        &::before {
+            width: calc(330px + 0.3vw);
+            height: calc(210px + 0.3vw);
+        }
     }
 }

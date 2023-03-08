@@ -2,3 +2,9 @@
     font-size: 19.51px;
     color: $body--bg;
 }
+
+@media (min-width: 2000px) {
+    .party-in-short__text_important {
+        font-size: calc(19.51px + 1vw);
+    }
+}
