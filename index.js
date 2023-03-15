@@ -12,3 +12,7 @@ import stroke_3 from './images/stroke-3.png';
 import slider_1__wrap from './blocks/slider-1/__wrap/js/slider-1__wrap.js';
 import block_bg_2 from './images/2block-bg.png';
 import stroke_4 from './images/stroke-4.png';
+import photo_5 from './images/photo-5.jpg';
+import photo_4 from './images/photo-4.jpg';
+import photo_7 from './images/photo-7.jpg';
+import photo_6 from './images/photo-6.jpg';
