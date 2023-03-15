@@ -1,11 +1,30 @@
 .slider-1__quote {
     font-family: 'Monda', sans-serif;
     font-weight: 700;
-    font-size: 17.89px;
+    font-size: 1.5rem;
     color: $body--bg;
     position: absolute;
     top: 0;
     left: 0;
-    width: max-content;
+    width: auto;
     z-index: 2;
+    text-align: center;
+}
+
+@media (min-width: 426px) {
+    .slider-1__quote {
+        width: max-content;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-1__quote {
+        font-size: 17.89px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-1__quote {
+        font-size: calc(17.89px + 0.35vw);
+    }
 }

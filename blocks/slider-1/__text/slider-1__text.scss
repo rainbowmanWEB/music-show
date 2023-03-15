@@ -1,11 +1,31 @@
 .slider-1__text {
-    margin-top: 143px;
+    margin-top: 80px;
     font-family: 'Monda', sans-serif;
     font-weight: 400;
-    font-size: 20.06px;
+    font-size: 1.5rem;
     color: $header__logo-decoration--bg;
     position: relative;
     z-index: 2;
-    line-height: 25px;
-    padding-bottom: 42px;
+    line-height: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .slider-1__text {
+        line-height: 25px;
+        padding-bottom: 42px;
+        font-size: 20.06px;
+        margin-top: 143px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-1__text {
+        margin-top: calc(143px + 0.3vw);
+        line-height: calc(25px + 0.5vw);
+        font-size: calc(20.06px + 0.5vw);
+        padding-bottom: calc(42px + 0.3vw);
+    }
 }

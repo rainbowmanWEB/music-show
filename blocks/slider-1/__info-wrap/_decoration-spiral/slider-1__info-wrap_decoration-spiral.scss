@@ -10,6 +10,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         animation: 1s linear infinite alternate slider-1__info-wrap_decoration-spiral_Scale;
+        display: none;
     }
 }
 
@@ -19,5 +20,13 @@
     }
     100% {
         transform: scale(1.1);
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-1__info-wrap_decoration-spiral {
+        &::before {
+            display: block;
+        }
     }
 }

@@ -1,7 +1,25 @@
 .slider-1__quote_violet {
     background-color: $header__nav-list-link_active--color;
     transform: rotate(2deg);
-    top: 59px;
+    top: -20px;
     left: 8px;
     padding: 2px 14px;
+}
+
+@media (min-width: 426px) {
+    .slider-1__quote_violet {
+        top: 35px;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-1__quote_violet {
+        top: 59px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-1__quote_violet {
+        padding: calc(2px + 0.3vw) calc(14px + 0.2vw);
+    }
 }

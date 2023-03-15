@@ -1,5 +1,18 @@
 .slider-1__info-wrap {
     position: relative;
     z-index: 2;
-    flex-basis: 47.25%;
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+@media (min-width: 426px) {
+    .slider-1__info-wrap {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-1__info-wrap {
+        flex-basis: 47.25%;
+    }
 }

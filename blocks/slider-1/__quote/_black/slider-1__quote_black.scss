@@ -1,7 +1,20 @@
 .slider-1__quote_black {
     background-color: $header__logo-decoration--bg;
     transform: rotate(-4deg);
-    top: 22px;
+    top: -30px;
     left: 36px;
     padding: 2px 14px;
+}
+
+@media (min-width: 426px) {
+    .slider-1__quote_black {
+        top: 22px;
+        left: 36px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-1__quote_black {
+        padding: calc(2px + 0.3vw) calc(14px + 0.2vw);
+    }
 }
