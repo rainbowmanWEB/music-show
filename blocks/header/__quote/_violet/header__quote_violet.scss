@@ -3,13 +3,15 @@
     margin-top: 10px;
     transform: rotate(-3deg);
     top: 36px;
-    left: 10px;
+    left: -10px;
+    padding: 5px 24px;
 }
 
 @media (min-width: 2000px) {
     .header__quote_violet {
         top: calc(36px + 4vw);
-        left: calc(10px - 0.3vw);
+        left: calc(-10px - 0.3vw);
         margin-top: calc(10px + 0.3vw);
+        padding: calc(5px + 0.3vw) calc(24px + 0.3vw);
     }
 }

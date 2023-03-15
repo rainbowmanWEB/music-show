@@ -1,6 +1,5 @@
 .header__image {
-    height: 100%;
-    width: 414px;
+    width: 397px;
     filter: grayscale(1);
     transition: all 1s ease-out;
     position: relative;
@@ -20,6 +19,6 @@
 
 @media (min-width: 2000px) {
     .header__image {
-        width: calc(414px + 19vw);
+        width: calc(397px + 19vw);
     }
 }

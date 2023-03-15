@@ -1,11 +1,16 @@
 .logo__icon {
-    width: 51px;
-    height: 51px;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: -24px;
+    top: -14px;
 }
 
 @media (min-width: 2000px) {
     .logo__icon {
-        width: calc(51px + 0.9vw);
-        height: calc(51px + 0.9vw);
+        width: calc(90px + 0.9vw);
+        height: calc(90px + 0.9vw);
+        left: calc(-24px - 0.3vw);
+        top: calc(-19px - 0.3vw);
     }
 }

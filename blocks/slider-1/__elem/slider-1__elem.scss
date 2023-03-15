@@ -1,0 +1,21 @@
+.slider-1__elem {
+    padding: 272px 278px 134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/2block-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -307px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+}

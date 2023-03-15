@@ -1,15 +1,23 @@
 .header__title_stroke-2 {
-    transform: rotate3d(0, 1, 0, 49deg);
+    transform: rotate3d(0, 1, 0, 40deg);
     display: block;
     position: relative;
-    left: 46px;
+    left: 90px;
     top: 15px;
     z-index: 2;
 }
 
+@media (min-width: 769px) {
+    .header__title_stroke-2 {
+        left: 29px;
+        top: 15px;
+    }
+}
+
+
 @media (min-width: 2000px) {
     .header__title_stroke-2 {
-        left: calc(46px + 2vw);
-        top: calc(15px + 0.5vw);
+        left: calc(56px + 2vw);
+        top: calc(15px + 1vw);
     }
 }

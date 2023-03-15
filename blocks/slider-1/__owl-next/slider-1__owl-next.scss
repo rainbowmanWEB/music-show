@@ -1,0 +1,37 @@
+.slider-1 {
+    .owl-next {
+        position: absolute;
+        right: 287px;
+        top: 111px;
+        background-image: url('../images/arrow.png')!important;
+        background-size: contain!important;
+        z-index: 3;
+        height: 100px;
+        width: 50px;
+        transform: rotate(-90deg);
+        animation: 0.5s linear infinite alternate shake_owl-next_arrow;
+    }
+}
+
+@keyframes shake_owl-next_arrow { 
+    0% { 
+        right: calc(287px + 0.3vw);
+        top: calc(111px + 0.3vw);
+    } 
+    25% { 
+        right: calc(295px + 0.3vw);
+        top: calc(108px + 0.3vw);
+    }
+    50% { 
+        right: calc(279px + 0.3vw);
+        top: calc(113px + 0.3vw);
+    }
+    75% { 
+        right: calc(286px + 0.3vw);
+        top: calc(110px + 0.3vw);
+    }
+    100% {
+        right: calc(275px + 0.3vw);
+        top: calc(112px + 0.3vw);
+    }
+}

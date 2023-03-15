@@ -14,7 +14,7 @@
 
 @media (min-width: 1025px) {
     .button {
-        padding: 17px 65px;
+        padding: 13px 68px;
         font-size: 17.44px;
     }
 }
@@ -22,7 +22,7 @@
 @media (min-width: 2000px) {
     .button {
         font-size: calc(17.44px + 0.5vw);
-        padding: calc(17px + 0.1vw) calc(65px + 0.1vw);
+        padding: calc(13px + 0.1vw) calc(68px + 0.1vw);
         letter-spacing: calc(-0.44px - 0.01vw);
     }
 }

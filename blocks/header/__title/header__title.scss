@@ -1,6 +1,6 @@
 .header__title {
     font-weight: 700;
-    font-family: 'Monda', sans-serif;
+    font-family: 'Staatliches', cursive;
     text-transform: uppercase;
     font-size: 80px;
     line-height: 40px;
@@ -13,18 +13,20 @@
     margin-bottom: 100px;
     z-index: 2;
     width: 300px;
+    letter-spacing: 7px;
+
 
     &::before {
         content: "";
         width: 18px;
-        height: 228px;
+        height: 180px;
         background-image: url('../images/stroke.png');
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
         position: absolute;
-        left: 72px;
-        top: -45px;
+        left: 83px;
+        top: -10px;
         z-index: 1;
     }
 
@@ -37,8 +39,8 @@
         background-size: cover;
         display: block;
         position: absolute;
-        left: 295px;
-        top: -86px;
+        left: 282px;
+        top: -67px;
         z-index: 1;
         animation: 2s linear infinite alternate spiralScale;
         display: none;
@@ -59,9 +61,14 @@
         font-size: 120px;
         line-height: 40px;
         width: 489px;
+        padding-left: 47px;
+        left: 51px;
+        
 
         &::before {
             height: 268px;
+            left: 129px;
+            top: -45px;
         }
 
         &::after {
@@ -71,6 +78,18 @@
 
 }
 
+@media (min-width: 769px) {
+    .header__title {
+        letter-spacing: 15px;
+
+        &::before {
+            content: "";
+            left: 78px;
+            
+        }
+    }
+}
+
 @media (min-width: 2000px) {
     .header__title {
         font-size: calc(120px + 2vw);
@@ -78,12 +97,14 @@
         width: calc(489px + 7vw);
         perspective: calc(800px + 1vw);
         margin: auto;
+        padding-left: calc(47px + 0.3vw);
+        letter-spacing: calc(15px + 0.03vw);
 
         &::before {
             content: "";
             width: calc(18px + 0.03vw);
             height: calc(268px + 4vw);
-            left: calc(72px + 1vw);
+            left: calc(126px + 1vw);
             top: calc(-45px - 0.3vw);
         }
 
@@ -91,8 +112,8 @@
             content: "";
             width: calc(321px + 0.5vw);
             height: calc(328px + 0.5vw);
-            left: calc(295px + 4vw);
-            top: calc(-86px - 0.3vw);
+            left: calc(337px + 4vw);
+            top: calc(-67px - 0.3vw);
         }
     }
 
