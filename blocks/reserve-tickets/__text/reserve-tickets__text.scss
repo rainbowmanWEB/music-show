@@ -2,7 +2,24 @@
     font-family: 'Monda', sans-serif;
     font-weight: 400;
     color: $header__logo-decoration--bg;
-    font-size: 1.250rem;
+    font-size: 1.5rem;
     letter-spacing: -0.031rem;
-    line-height: 1.357rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+@media (min-width: 426px) {
+    .reserve-tickets__text {
+        font-size: 1.250rem;
+        line-height: 1.357rem;
+        text-align: start;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__text {
+        font-size: calc(1.250rem + 0.5vw);
+        line-height: calc(1.357rem + 0.5vw);
+        letter-spacing: calc(-0.031rem + 0.05vw);
+    }
 }

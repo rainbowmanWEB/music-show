@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     filter: brightness(1.05);
     background-size: cover;
+    display: none;
 
     &::after {
         content: "";
@@ -22,5 +23,17 @@
         &::after {
             opacity: 0;
         }
+    }
+}
+
+@media (min-width: 1025px) {
+    .reserve-tickets__decoration-image-3 {
+        display: block;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__decoration-image-3 {
+        height: calc(873px + 5vw);
     }
 }

@@ -1,12 +1,30 @@
 .reserve-tickets__info-wrap {
-    flex-basis: 63%;
+    flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 136px 60px 140px 74px;
+    padding: 50px 10px 70px 10px;
     background-image: url('../images/3block-bg.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top right;
     align-content: flex-start;
+}
+
+@media (min-width: 769px) {
+    .reserve-tickets__info-wrap {
+        padding: 136px 60px 140px 74px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .reserve-tickets__info-wrap {
+        flex-basis: 63%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__info-wrap {
+        padding: calc(50px + 0.6vw) calc(60px + 0.6vw) calc(140px + 0.6vw) calc(74px + 0.6vw);
+    }
 }

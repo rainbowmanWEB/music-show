@@ -1,9 +1,24 @@
 .reserve-tickets__images-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    position: absolute;
-    width: 82%;
-    bottom: 80px;
-    right: -17px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 1025px) {
+    .reserve-tickets__images-list {
+        position: absolute;
+        width: 82%;
+        justify-content: space-between;
+        bottom: 80px;
+        right: -17px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__images-list {
+        bottom: 10px;
+        width: 70%;
+    }
 }

@@ -1,4 +1,27 @@
 .reserve-tickets__text-wrap {
     margin-top: 49px;
-    flex-basis: 47%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media (min-width: 426px) {
+    .reserve-tickets__text-wrap {
+        flex-basis: 47%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__text-wrap {
+        height: 40%;
+    }
+}
+
+@media (min-width: 2561px) {
+    .reserve-tickets__text-wrap {
+        height: 50%;
+    }
 }

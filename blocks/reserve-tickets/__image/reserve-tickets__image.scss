@@ -1,11 +1,34 @@
 .reserve-tickets__image {
-    max-width: 400px;
+    max-width: 90%;
     height: 225px;
     filter: grayscale(1);
     transition: all 1s ease-out;
+    margin: 25px auto;
+    position: relative;
 
     &:hover {
         filter: grayscale(0);
         transform: scale(1.2);
+        z-index: 3;
+    }
+}
+
+@media (min-width: 426px) {
+    .reserve-tickets__image {
+        max-width: 400px;
+        margin: 25px 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .reserve-tickets__image {
+        margin: 0;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__image {
+        max-width: calc(400px + 3vw);
+        height: calc(225px + 2vw);
     }
 }

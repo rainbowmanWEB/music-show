@@ -3,4 +3,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets {
+        overflow: inherit;
+    }
 }

@@ -1,5 +1,17 @@
 .reserve-tickets__text_important {
     font-weight: 700;
-    font-size: 1.390rem;
+    font-size: 1.6rem;
     color: $header__nav-list-link_active--color;
+}
+
+@media (min-width: 426px) {
+    .reserve-tickets__text_important {
+        font-size: 1.390rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .reserve-tickets__text_important {
+        font-size: calc(1.390rem + 0.6vw);
+    }
 }
