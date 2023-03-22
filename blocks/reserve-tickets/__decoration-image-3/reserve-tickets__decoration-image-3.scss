@@ -1,0 +1,26 @@
+.reserve-tickets__decoration-image-3 {
+    flex-basis: 37%;
+    height: 873px;
+    background-image: url('../images/photo-7.jpg');
+    background-repeat: no-repeat;
+    filter: brightness(1.05);
+    background-size: cover;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: $party-in-short--bg;
+        opacity: 0.7;
+        z-index: 2;
+        filter: saturate(1.5) contrast(1);
+        transition: all 1s ease-out;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 0;
+        }
+    }
+}

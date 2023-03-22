@@ -13,9 +13,9 @@
 
 @media (min-width: 769px) {
     .slider-1__text {
-        line-height: 25px;
+        line-height: 1.785rem;
         padding-bottom: 42px;
-        font-size: 20.06px;
+        font-size: 1.432rem;
         margin-top: 143px;
         text-align: left;
     }
@@ -24,8 +24,8 @@
 @media (min-width: 2000px) {
     .slider-1__text {
         margin-top: calc(143px + 0.3vw);
-        line-height: calc(25px + 0.5vw);
-        font-size: calc(20.06px + 0.5vw);
+        line-height: calc(1.785rem + 0.5vw);
+        font-size: calc(1.432rem + 0.5vw);
         padding-bottom: calc(42px + 0.3vw);
     }
 }

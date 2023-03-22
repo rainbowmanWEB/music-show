@@ -1,0 +1,11 @@
+.reserve-tickets__image {
+    max-width: 400px;
+    height: 225px;
+    filter: grayscale(1);
+    transition: all 1s ease-out;
+
+    &:hover {
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}

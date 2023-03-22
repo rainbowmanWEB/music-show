@@ -12,12 +12,12 @@
 
 @media (min-width: 769px) {
     .header__nav-list-link_active {
-        font-size: 24.68px;
+        font-size: 1.762rem;
     }
 }
 
 @media (min-width: 2000px) {
     .header__nav-list-link_active {
-        font-size: calc(24.68px + 0.5vw);
+        font-size: calc(1.762rem + 0.5vw);
     }
 }

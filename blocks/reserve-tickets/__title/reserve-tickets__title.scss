@@ -1,0 +1,26 @@
+.reserve-tickets__title {
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    font-size: 6.861rem;
+    line-height: 6.615rem;
+    color: $header__logo-decoration--bg;
+    position: relative;
+    z-index: 2;
+    flex-basis: 100%;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &::after {
+        content: "";
+        width: 440px;
+        height: 40px;
+        position: absolute;
+        z-index: 1;
+        display: block;
+        right: 86px;
+        bottom: -10px;
+        background-image: url('../images/stroke-6.png');
+        background-repeat: no-repeat;
+    }
+}

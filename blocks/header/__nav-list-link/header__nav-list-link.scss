@@ -3,7 +3,7 @@
     font-weight: 400;
     font-family: 'Monda', sans-serif;
     font-size: 2rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.035rem;
     color: $header__logo-decoration--bg;
     border-bottom: none;
     text-transform: uppercase;
@@ -16,12 +16,12 @@
 
 @media (min-width: 769px) {
     .header__nav-list-link {
-        font-size: 20px;
+        font-size: 1.428rem;
     }
 }
 
 @media (min-width: 2000px) {
     .header__nav-list-link {
-        font-size: calc(20px + 0.5vw);
+        font-size: calc(1.428rem + 0.5vw);
     }
 }

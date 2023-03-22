@@ -8,22 +8,21 @@
     top: 25px;
     color: $header__logo-decoration--bg;
     text-transform: uppercase;
-    line-height: 16px;
+    line-height: 1.142rem;
 }
 
 @media (min-width: 769px) {
     .logo__title {
         font-size: 1.3rem;
-        line-height: 18px;
+        line-height: 1.285rem;
     }
 }
 
 @media (min-width: 2000px) {
     .logo__title {
-        line-height: calc(13px + 0.3vw);
         font-size: calc(1.5rem + 0.5vw);
         left: calc(50px + 0.3vw);
         top: calc(25px + 0.1vw);
-        line-height: calc(18px + 0.3vw);
+        line-height: calc(1.285rem + 0.3vw);
     }
 }

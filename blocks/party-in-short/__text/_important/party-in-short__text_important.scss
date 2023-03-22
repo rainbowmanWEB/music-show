@@ -1,10 +1,10 @@
 .party-in-short__text_important {
-    font-size: 19.51px;
+    font-size: 1.393rem;
     color: $body--bg;
 }
 
 @media (min-width: 2000px) {
     .party-in-short__text_important {
-        font-size: calc(19.51px + 1vw);
+        font-size: calc(1.393rem + 1vw);
     }
 }

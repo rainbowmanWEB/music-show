@@ -1,17 +1,17 @@
 .header__text_important {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: $header__nav-list-link_active--color;
     font-weight: 700;
 }
 
 @media (min-width: 426px) {
     .header__text_important {
-        font-size: 20px;
+        font-size: 1.428rem;
     }
 }
 
 @media (min-width: 2000px) {
     .header__text_important {
-        font-size: calc(20px + 0.5vw);
+        font-size: calc(1.428rem + 0.5vw);
     }
 }

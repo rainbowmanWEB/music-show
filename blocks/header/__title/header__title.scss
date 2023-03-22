@@ -2,9 +2,9 @@
     font-weight: 700;
     font-family: 'Staatliches', cursive;
     text-transform: uppercase;
-    font-size: 80px;
-    line-height: 40px;
-    letter-spacing: -0.5px;
+    font-size: 5.714rem;
+    line-height: 2.857rem;
+    letter-spacing: -0.035rem;
     color: $header__nav-list-link_active--color;
     perspective: 800px;
     perspective-origin: 50% 50%;
@@ -13,7 +13,7 @@
     margin-bottom: 100px;
     z-index: 2;
     width: 300px;
-    letter-spacing: 7px;
+    letter-spacing: 0.5rem;
 
 
     &::before {
@@ -58,8 +58,7 @@
 
 @media (min-width: 426px) {
     .header__title {
-        font-size: 120px;
-        line-height: 40px;
+        font-size: 8.571rem;
         width: 489px;
         padding-left: 47px;
         left: 51px;
@@ -80,7 +79,7 @@
 
 @media (min-width: 769px) {
     .header__title {
-        letter-spacing: 15px;
+        letter-spacing: 1.071rem;
 
         &::before {
             content: "";
@@ -92,13 +91,13 @@
 
 @media (min-width: 2000px) {
     .header__title {
-        font-size: calc(120px + 2vw);
-        line-height: calc(40px + 0.5vw);
+        font-size: calc(8.571rem + 2vw);
+        line-height: calc(2.857rem + 0.5vw);
         width: calc(489px + 7vw);
         perspective: calc(800px + 1vw);
         margin: auto;
         padding-left: calc(47px + 0.3vw);
-        letter-spacing: calc(15px + 0.03vw);
+        letter-spacing: calc(1.071rem + 0.03vw);
 
         &::before {
             content: "";

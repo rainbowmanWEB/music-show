@@ -17,13 +17,13 @@
 
 @media (min-width: 426px) {
     .slider-1__slider-count {
-        font-size: 32.98px;
+        font-size: 2.357rem;
         right: 400px;
     }
 }
 
 @media (min-width: 2000px) {
     .slider-1__slider-count {
-        font-size: calc(32.98px + 0.5vw);
+        font-size: calc(2.357rem + 0.5vw);
     }
 }

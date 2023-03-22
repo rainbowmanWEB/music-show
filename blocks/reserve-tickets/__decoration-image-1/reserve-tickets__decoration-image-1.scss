@@ -1,0 +1,14 @@
+.reserve-tickets__decoration-image-1 {
+    flex-basis: 37%;
+    height: 250px;
+    background-image: url('../images/photo-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 134%;
+    background-position: -67px 0px;
+    filter: grayscale(1);
+    transition: all 1s ease-out;
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}

@@ -2,7 +2,7 @@
     font-weight: 700;
     font-family: 'Monda', sans-serif;
     font-size: 1.5rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.035rem;
     text-align: center;
     color: $body--bg;
     text-transform: uppercase;
@@ -14,13 +14,13 @@
 
 @media (min-width: 426px) {
     .header__quote {
-        font-size: 16px;
+        font-size: 1.142rem;
     }
 }
 
 @media (min-width: 2000px) {
     .header__quote {
-        font-size: calc(16px + 0.5vw);
+        font-size: calc(1.142rem + 0.5vw);
         padding: calc(8px + 0.3vw) calc(40px + 0.3vw);
     }
 }

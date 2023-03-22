@@ -3,20 +3,20 @@
     font-weight: 400;
     font-family: 'Monda', sans-serif;
     font-size: 1.1rem;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.035rem;
     color: $header__logo-decoration--bg;
     text-align: center;
 }
 
 @media (min-width: 425px) {
     .header__text {
-        font-size: 18px;
+        font-size: 1.285rem;
     }
 }
 
 @media (min-width: 2000px) {
     .header__text {
-        font-size: calc(18px + 0.5vw);
+        font-size: calc(1.285rem + 0.5vw);
         margin-top: calc(80px + 4vw);
     }
 }

@@ -2,7 +2,7 @@
     font-weight: 400;
     font-family: 'Monda', sans-serif;
     font-size: 1.5rem;
-    letter-spacing: -0.44px;
+    letter-spacing: -0.031rem;
     color: $header__logo-decoration--bg;
     line-height: 2rem;
     text-align: center;
@@ -10,16 +10,16 @@
 
 @media (min-width: 769px) {
     .party-in-short__text {
-        font-size: 17.55px;
-        line-height: 24px;
+        font-size: 1.253rem;
+        line-height: 1.714rem;
         text-align: left;
     }
 }
 
 @media (min-width: 2000px) {
     .party-in-short__text {
-        font-size: calc(17.55px + 0.7vw);
-        line-height: calc(24px + 0.7vw);
-        letter-spacing: calc(-0.44px - 0.01vw);
+        font-size: calc(1.253rem + 0.7vw);
+        line-height: calc(1.714rem + 0.7vw);
+        letter-spacing: calc(-0.031rem + 0.01vw);
     }
 }

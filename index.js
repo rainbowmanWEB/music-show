@@ -16,3 +16,5 @@ import photo_5 from './images/photo-5.jpg';
 import photo_4 from './images/photo-4.jpg';
 import photo_7 from './images/photo-7.jpg';
 import photo_6 from './images/photo-6.jpg';
+import block_bg_3 from './images/3block-bg.png';
+import stroke_6 from './images/stroke-6.png';
