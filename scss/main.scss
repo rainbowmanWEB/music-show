@@ -5,6 +5,8 @@
 @import "fonts";
 @import "core";
 @import "../blocks/button/button.scss";
+@import "../blocks/button/_white/button_white.scss";
+@import "../blocks/button/_violet/button_violet.scss";
 @import "../blocks/header/header.scss";
 @import "../blocks/header/__logo/header__logo.scss";
 @import "../blocks/logo/__icon/logo__icon.scss";
@@ -66,3 +68,17 @@
 @import "../blocks/reserve-tickets/__button/reserve-tickets__button.scss";
 @import "../blocks/reserve-tickets/__images-list/reserve-tickets__images-list.scss";
 @import "../blocks/reserve-tickets/__image/reserve-tickets__image.scss";
+@import "../blocks/slider-2/slider-2.scss";
+@import "../blocks/slider-2/__info-wrap/slider-2__info-wrap.scss";
+@import "../blocks/slider-2/__quote/slider-2__quote.scss";
+@import "../blocks/slider-2/__quote/_black/slider-2__quote_black.scss";
+@import "../blocks/slider-2/__quote/_violet/slider-2__quote_violet.scss";
+@import "../blocks/slider-2/__text/slider-2__text.scss";
+@import "../blocks/slider-2/__text/_important/slider-2__text_important.scss";
+@import "../blocks/slider-2/__button/slider-2__button.scss";
+@import "../blocks/slider-2/__info-wrap/_decoration-spiral/slider-2__info-wrap_decoration-spiral.scss";
+@import "../blocks/slider-2/__info-wrap/_decoration-fence/slider-2__info-wrap_decoration-fence.scss";
+@import "../blocks/slider-2/__image/slider-2__image.scss";
+@import "../blocks/slider-2/__elem/slider-2__elem.scss";
+@import "../blocks/slider-2/__owl-prev/slider-2__owl-prev.scss";
+@import "../blocks/slider-2/__owl-next/slider-2__owl-next.scss";

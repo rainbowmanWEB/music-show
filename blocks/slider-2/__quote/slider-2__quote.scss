@@ -1,0 +1,31 @@
+.slider-2__quote {
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: $body--bg;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 426px) {
+    .slider-2__quote {
+        width: max-content;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-2__quote {
+        font-size: 1.114rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-2__quote {
+        font-size: calc(1.114rem + 0.35vw);
+    }
+}

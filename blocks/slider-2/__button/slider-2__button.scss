@@ -1,0 +1,16 @@
+.slider-2__button {
+    margin: 35px auto;
+    display: table;
+}
+
+@media (min-width: 769px) {
+    .slider-2__button {
+        margin: 70px auto;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-2__button {
+        margin: calc(70px + 0.3vw) auto;
+    }
+}

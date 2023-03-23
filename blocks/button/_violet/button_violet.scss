@@ -1,0 +1,22 @@
+.button_violet {
+    border: 4px solid  $header__nav-list-link_active--color;
+    color: $header__nav-list-link_active--color;
+    font-size: 1.2rem;
+    letter-spacing: -0.05rem;
+    padding: 7px 50px;
+}
+
+@media (min-width: 426px) {
+    .button_violet {
+        font-size: 1.345rem;
+        padding: 9px 63px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .button_violet {
+        font-size: calc(1.345rem + 0.5vw);
+        letter-spacing: calc(-0.05rem + 0.01vw);
+        border: calc(4px + 0.05vw) solid  $header__nav-list-link_active--color;
+    }
+}

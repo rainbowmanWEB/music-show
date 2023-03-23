@@ -2,11 +2,6 @@
     text-decoration: none;
     font-weight: 700;
     font-family: 'Monda', sans-serif;
-    font-size: 1.1rem;
-    letter-spacing: -0.15rem;
-    color: $body--bg;
-    border: 4px solid $body--bg;
-    padding: 11px 34px;
     text-transform: uppercase;
     border-radius: 50px;
     display: inline-block;
@@ -14,20 +9,5 @@
     &:hover {
         border-color: $header__logo-decoration--bg;
         color: $header__logo-decoration--bg;
-    }
-}
-
-@media (min-width: 1025px) {
-    .button {
-        padding: 11px 73px;
-        font-size: 1.245rem;
-    }
-}
-
-@media (min-width: 2000px) {
-    .button {
-        font-size: calc(1.245rem + 0.5vw);
-        padding: calc(13px + 0.1vw) calc(68px + 0.1vw);
-        letter-spacing: calc(-0.15rem + 0.01vw);
     }
 }

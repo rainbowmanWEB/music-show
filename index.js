@@ -18,3 +18,8 @@ import photo_7 from './images/photo-7.jpg';
 import photo_6 from './images/photo-6.jpg';
 import block_bg_3 from './images/3block-bg.png';
 import stroke_6 from './images/stroke-6.png';
+import block_bg_4 from './images/4block-bg.png';
+import photo_8 from './images/photo-8.jpg';
+import photo_10 from './images/photo-10.jpg';
+import photo_11 from './images/photo-11.jpg';
+import slider_2__wrap from './blocks/slider-2/__wrap/js/slider-2__wrap.js';
