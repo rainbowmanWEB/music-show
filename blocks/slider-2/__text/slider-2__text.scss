@@ -2,16 +2,16 @@
     font-family: 'Monda', sans-serif;
     font-weight: 400;
     color: $header__logo-decoration--bg;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     letter-spacing: -0.031rem;
     line-height: 1.6rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     position: relative;
     z-index: 2;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 1025px) {
     .slider-2__text {
         font-size: 1.250rem;
         line-height: 1.45rem;

@@ -1,10 +1,10 @@
 .slider-2__text_important {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: $header__nav-list-link_active--color;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 1025px) {
     .slider-2__text_important {
         font-size: 1.392rem;
     }

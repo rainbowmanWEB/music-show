@@ -1,8 +1,8 @@
 .slider-1 {
     .owl-prev {
         position: absolute;
-        right: 560px;
-        top: 112px;
+        left: 30px;
+        top: 111px;
         background-image: url('../images/arrow.png')!important;
         background-size: contain!important;
         background-repeat: no-repeat!important;
@@ -10,7 +10,7 @@
         height: 100px;
         width: 50px;
         transform: rotate(90deg);
-        animation: 0.5s linear infinite alternate shake_owl-prev_arrow_mobile;
+        animation: 0.5s linear infinite alternate shake_owl-prev_arrow_slider-1;
     }
 
     .disabled {
@@ -18,56 +18,30 @@
     }
 }
 
-@keyframes shake_owl-prev_arrow { 
+@keyframes shake_owl-prev_arrow_slider-1 { 
     0% { 
-        right: calc(560px + 1.5vw);
-        top: calc(111px + 0.3vw);
+        transform: translate(0%, 0%) rotate(90deg);
     } 
     25% { 
-        right: calc(565px + 1.5vw);
-        top: calc(108px + 0.3vw);
+        transform: translate(5%, 5%) rotate(90deg);
     }
     50% { 
-        right: calc(561px + 1.5vw);
-        top: calc(113px + 0.3vw);
+        transform: translate(-5%, -5%) rotate(90deg);
     }
     75% { 
-        right: calc(558px + 1.5vw);
-        top: calc(110px + 0.3vw);
+        transform: translate(0%, 0%) rotate(90deg);
     }
     100% {
-        right: calc(563px + 1.5vw);
-        top: calc(112px + 0.3vw);
-    }
-}
-
-@keyframes shake_owl-prev_arrow_mobile { 
-    0% { 
-        left: calc(30px + 1.5vw);
-        top: calc(111px + 0.3vw);
-    } 
-    25% { 
-        left: calc(35px + 1.5vw);
-        top: calc(108px + 0.3vw);
-    }
-    50% { 
-        left: calc(31px + 1.5vw);
-        top: calc(113px + 0.3vw);
-    }
-    75% { 
-        left: calc(38px + 1.5vw);
-        top: calc(110px + 0.3vw);
-    }
-    100% {
-        left: calc(33px + 1.5vw);
-        top: calc(112px + 0.3vw);
+        transform: translate(5%, 5%) rotate(90deg);
     }
 }
 
 @media (min-width: 426px) {
     .slider-1 {
         .owl-prev {
-            animation: 0.5s linear infinite alternate shake_owl-prev_arrow;
+            right: 560px;
+            top: 111px;
+            left: auto;
         }
     }
 }
@@ -77,6 +51,8 @@
         .owl-prev {
             height: calc(100px + 0.5vw);
             width: calc(50px + 0.5vw);
+            right: calc(560px + 1.3vw);
+            top: 120px;
         }
     }
 }

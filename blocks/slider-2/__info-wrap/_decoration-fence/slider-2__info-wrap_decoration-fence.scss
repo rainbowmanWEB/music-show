@@ -4,8 +4,8 @@
         width: 390px;
         height: 230px;
         position: absolute;
-        left: 198px;
-        top: 273px;
+        left: 35%;
+        top: 45%;
         background-image: url('../images/stroke-2.png');
         background-repeat: no-repeat;
         background-size: contain;
@@ -28,6 +28,27 @@
     .slider-2__info-wrap_decoration-fence {
         &::before {
             display: block;
+            top: 32%;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .slider-2__info-wrap_decoration-fence {
+        &::before {
+            left: 198px;
+            top: 273px;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-2__info-wrap_decoration-fence {
+        &::before {
+            width: calc(390px + 7vw);
+            height: calc(230px + 7vw);
+            left: calc(198px + 0.5vw);
+            top: calc(273px + 0.5vw);
         }
     }
 }

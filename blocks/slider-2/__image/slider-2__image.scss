@@ -3,8 +3,21 @@
     height: 875px;
     filter: grayscale(1);
     transition: all 1s ease-out;
+    display: none!important;
 
     &:hover {
         filter: grayscale(0);
+    }
+}
+
+@media (min-width: 1025px) {
+    .slider-2__image {
+        display: block!important;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-2__image {
+        height: calc(875px + 15vw);
     }
 }

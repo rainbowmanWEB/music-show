@@ -1,8 +1,10 @@
 .slider-2 {
     .owl-next {
         position: absolute;
-        left: 514px;
-        top: 677px;
+        left: none;
+        top: none;
+        bottom: 50px;
+        right: 50px;
         background-image: url('../images/arrow.png')!important;
         background-size: contain!important;
         background-repeat: no-repeat!important;
@@ -10,60 +12,33 @@
         height: 100px;
         width: 40px;
         transform: rotate(-90deg);
-        animation: 0.5s linear infinite alternate shake_owl-next_arrow_mobile_slider-2;
+        animation: 0.5s linear infinite alternate shake_owl-next_arrow_slider-2;
     }
 }
 
 @keyframes shake_owl-next_arrow_slider-2 { 
     0% { 
-        left: calc(494px + 1.5vw);
-        top: calc(667px + 0.3vw);
+        transform: translate(0%, 0%) rotate(-90deg);
     } 
     25% { 
-        left: calc(501px + 1.5vw);
-        top: calc(663px + 0.3vw);
+        transform: translate(5%, 5%) rotate(-90deg);
     }
     50% { 
-        left: calc(490px + 1.5vw);
-        top: calc(673px + 0.3vw);
+        transform: translate(-5%, -5%) rotate(-90deg);
     }
     75% { 
-        left: calc(499px + 1.5vw);
-        top: calc(660px + 0.3vw);
+        transform: translate(0%, 0%) rotate(-90deg);
     }
     100% {
-        left: calc(493px + 1.5vw);
-        top: calc(665px + 0.3vw);
+        transform: translate(5%, 5%) rotate(-90deg);
     }
 }
 
-@keyframes shake_owl-next_arrow_mobile_slider-2 { 
-    0% { 
-        right: calc(30px - 0.3vw);
-        top: calc(111px + 0.3vw);
-    } 
-    25% { 
-        right: calc(35px - 0.3vw);
-        top: calc(108px + 0.3vw);
-    }
-    50% { 
-        right: calc(28px - 0.3vw);
-        top: calc(113px + 0.3vw);
-    }
-    75% { 
-        right: calc(36px - 0.3vw);
-        top: calc(110px + 0.3vw);
-    }
-    100% {
-        right: calc(30px - 0.3vw);
-        top: calc(112px + 0.3vw);
-    }
-}
-
-@media (min-width: 426px) {
+@media (min-width: 1025px) {
     .slider-2 {
         .owl-next {
-            animation: 0.5s linear infinite alternate shake_owl-next_arrow_slider-2;
+            left: 494px;
+            top: 667px;
         }
     }
 }
@@ -73,6 +48,8 @@
         .owl-next {
             height: calc(100px + 0.5vw);
             width: calc(50px + 0.5vw);
+            left: calc(494px + 5.5vw);
+            top: calc(667px + 6.5vw);
         }
     }
 }

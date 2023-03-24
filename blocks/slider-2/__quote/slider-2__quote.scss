@@ -10,6 +10,7 @@
     z-index: 2;
     text-align: center;
     text-transform: uppercase;
+    margin: auto;
 }
 
 @media (min-width: 426px) {
@@ -18,9 +19,10 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .slider-2__quote {
         font-size: 1.114rem;
+        margin: 0;
     }
 }
 

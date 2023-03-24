@@ -2,31 +2,61 @@
     position: absolute;
     width: 51px;
     height: 112px;
-    left: 92px;
-    bottom: 98px;
+    left: calc(50% - 25px);
+    bottom: 30px;
     animation: 0.5s linear infinite alternate shake_arrow;
 }
 
+// @keyframes shake_arrow { 
+//     0% { 
+//         left: calc(72px + 0.3vw);
+//         bottom: calc(68px + 0.3vw);
+//     } 
+//     25% { 
+//         left: calc(77px + 0.3vw);
+//         bottom: calc(73px + 0.3vw);
+//     }
+//     50% { 
+//         left: calc(77px + 0.3vw);
+//         bottom: calc(60px + 0.3vw);
+//     }
+//     75% { 
+//         left: calc(67px + 0.3vw);
+//         bottom: calc(73px + 0.3vw);
+//     }
+//     100% {
+//         left: calc(67px + 0.3vw);
+//         bottom: calc(63px + 0.3vw);
+//     }
+// }
+
 @keyframes shake_arrow { 
     0% { 
-        left: calc(72px + 0.3vw);
-        bottom: calc(68px + 0.3vw);
+        transform: translate(0%, 0%);
     } 
     25% { 
-        left: calc(77px + 0.3vw);
-        bottom: calc(73px + 0.3vw);
+        transform: translate(5%, 5%);
     }
     50% { 
-        left: calc(77px + 0.3vw);
-        bottom: calc(60px + 0.3vw);
+        transform: translate(-5%, -5%);
     }
     75% { 
-        left: calc(67px + 0.3vw);
-        bottom: calc(73px + 0.3vw);
+        transform: translate(0%, 0%);
     }
     100% {
-        left: calc(67px + 0.3vw);
-        bottom: calc(63px + 0.3vw);
+        transform: translate(5%, 5%);
+    }
+}
+
+@media (min-width: 769px) {
+    .header__arrow {
+        left: 92px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header__arrow {
+        bottom: 98px;
     }
 }
 
