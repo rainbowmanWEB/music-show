@@ -1,0 +1,42 @@
+.party-your__info-wrap {
+    flex-basis: 49.5%;
+    background-color: $party-in-short--bg;
+    background-image: url('../images/6block-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 97% -46px;
+    padding: 239px 140px 238px 160px;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 97px;
+        height: 167px;
+        background-image: url('../images/stroke-8.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 121px;
+        top: 597px;
+        transform: rotate(2deg);
+        animation: 1s linear infinite alternate shake_party-your__info-wrap_arrow_after;
+    }
+}
+
+@keyframes shake_party-your__info-wrap_arrow_after { 
+    0% { 
+        transform: translate(0%, 0%) rotate(2deg);
+    } 
+    25% { 
+        transform: translate(5%, 5%) rotate(2deg);
+    }
+    50% { 
+        transform: translate(-5%, -5%) rotate(2deg);
+    }
+    75% { 
+        transform: translate(0%, 0%) rotate(2deg);
+    }
+    100% {
+        transform: translate(5%, 5%) rotate(2deg);
+    }
+}

@@ -27,3 +27,4 @@ import photo_9 from './images/photo-9.jpg';
 import block_bg_5 from './images/5block-bg.png';
 import stroke_7 from './images/stroke-7.png';
 import block_bg_6 from './images/6block-bg.png';
+import stroke_8 from './images/stroke-8.png';

@@ -1,0 +1,102 @@
+.party-your__title {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: $header__logo-decoration--bg;
+    position: relative;
+    z-index: 2;
+    flex-basis: 100%;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.13rem;
+    text-align: center;
+    flex-basis: 100%;
+    z-index: 2;
+
+    &::before {
+        content: "";
+        width: 80px;
+        height: 90px;
+        background-image: url('../images/stroke-8.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: -110px;
+        top: -93px;
+        transform: rotate(172deg);
+        animation: 0.5s linear infinite alternate shake_party-your__title_arrow_before;
+    }
+
+    &::after {
+        content: "";
+        width: 80px;
+        height: 122px;
+        background-image: url('../images/stroke-8.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: -10px;
+        top: -160px;
+        transform: rotate(197deg);
+        animation: 1.5s linear infinite alternate shake_party-your__title_arrow_after;
+    }
+}
+
+@keyframes shake_party-your__title_arrow_before { 
+    0% { 
+        transform: translate(0%, 0%) rotate(172deg);
+    } 
+    25% { 
+        transform: translate(5%, 5%) rotate(172deg);
+    }
+    50% { 
+        transform: translate(-5%, -5%) rotate(172deg);
+    }
+    75% { 
+        transform: translate(0%, 0%) rotate(172deg);
+    }
+    100% {
+        transform: translate(5%, 5%) rotate(172deg);
+    }
+}
+
+@keyframes shake_party-your__title_arrow_after { 
+    0% { 
+        transform: translate(0%, 0%) rotate(197deg);
+    } 
+    25% { 
+        transform: translate(5%, 5%) rotate(197deg);
+    }
+    50% { 
+        transform: translate(-5%, -5%) rotate(197deg);
+    }
+    75% { 
+        transform: translate(0%, 0%) rotate(197deg);
+    }
+    100% {
+        transform: translate(5%, 5%) rotate(197deg);
+    }
+}
+
+@media (min-width: 426px) {
+    .party-your__title {
+        font-size: 6.861rem;
+        line-height: 6.615rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .party-your__title {
+        flex-basis: 41%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-your__title {
+        font-size: calc(6.861rem + 2vw);
+        line-height: calc(6.615rem + 2vw);
+        letter-spacing: calc(0.142rem + 0.05vw);
+    }
+}

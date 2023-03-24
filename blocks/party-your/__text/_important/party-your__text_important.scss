@@ -1,0 +1,17 @@
+.party-your__text_important {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: $body--bg;
+}
+
+@media (min-width: 769px) {
+    .party-your__text_important {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-your__text_important {
+        font-size: calc(1.390rem + 0.6vw);
+    }
+}
