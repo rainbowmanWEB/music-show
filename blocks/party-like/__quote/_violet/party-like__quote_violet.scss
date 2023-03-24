@@ -1,21 +1,20 @@
 .party-like__quote_violet {
     background-color: $header__nav-list-link_active--color;
     transform: rotate(-2deg);
-    top: -20px;
+    top: 83px;
     left: 3px;
     padding: 2px 16px;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
     .party-like__quote_violet {
-        top: 15px;
-        left: 174px;
+        top: 77px;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .party-like__quote_violet {
-        top: 67px;
+        left: 174px;
     }
 }
 

@@ -1,5 +1,11 @@
 .party-like__info-wrap {
-    flex-basis: 50%;
+    flex-basis: 100%;
     position: relative;
     z-index: 2;
+}
+
+@media (min-width: 1025px) {
+    .party-like__info-wrap {
+        flex-basis: 50%;
+    }
 }

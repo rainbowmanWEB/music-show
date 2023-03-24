@@ -1,13 +1,13 @@
 .party-like {
     position: relative;
-    padding: 436px 215px 170px 215px;
+    padding: 300px 20px 50px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-image: url('../images/5block-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 16px 163px;
+    background-position: -5px 264px;
     overflow: hidden;
 
     &::before {
@@ -22,6 +22,7 @@
         top: 411px;
         left: -22px;
         z-index: 1;
+        display: none;
     }
 
     &::after {
@@ -36,6 +37,7 @@
         top: 575px;
         right: -21px;
         z-index: 1;
+        display: none;
     }
 }
 
@@ -45,5 +47,45 @@
     }
     100% {
         transform: scaleX(1.5);
+    }
+}
+
+@media (min-width: 426px) {
+    .party-like {
+        padding: 436px 20px 170px 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .party-like {
+        padding: 436px 215px 170px 215px;
+        background-position: 16px 163px;
+
+        &::before {
+            display: block;
+        }
+    
+        &::after {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-like {
+        padding: calc(436px + 3vw) calc(215px + 0.3vw) calc(170px + 0.3vw) calc(215px + 0.3vw);
+        &::before {
+            content: "";
+            width: calc(280px + 0.5vw);
+            height: calc(268px + 0.5vw);
+            top: calc(411px + 3vw);
+        }
+    
+        &::after {
+            content: "";
+            width: calc(386px + 0.5vw);
+            height: calc(250px + 0.5vw);
+            top: calc(575px + 3vw);
+        }
     }
 }

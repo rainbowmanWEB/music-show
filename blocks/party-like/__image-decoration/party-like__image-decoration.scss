@@ -2,7 +2,10 @@
     width: 100%;
     height: 295px;
     background-image: url('../images/photo-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
+    background-position: 40% 0;
     top: 0;
     left: 0;
 
@@ -22,5 +25,17 @@
         &::after {
             opacity: 0;
         }
+    }
+}
+
+@media (min-width: 769px) {
+    .party-like__image-decoration {
+        background-position: 0 0;
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-like__image-decoration {
+        height: calc(295px + 3vw);
     }
 }
