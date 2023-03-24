@@ -1,0 +1,25 @@
+.party-like__text {
+    font-family: 'Monda', sans-serif;
+    font-weight: 400;
+    color: $header__logo-decoration--bg;
+    font-size: 1.5rem;
+    letter-spacing: -0.031rem;
+    line-height: 1.6rem;
+    text-align: center;
+    margin-top: 113px;
+}
+
+@media (min-width: 426px) {
+    .party-like__text {
+        font-size: 1.250rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-like__text {
+        font-size: calc(1.250rem + 0.5vw);
+        line-height: calc(1.357rem + 0.5vw);
+        letter-spacing: calc(-0.031rem + 0.05vw);
+    }
+}

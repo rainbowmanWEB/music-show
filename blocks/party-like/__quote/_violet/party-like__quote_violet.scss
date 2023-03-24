@@ -1,26 +1,26 @@
-.slider-2__quote_violet {
+.party-like__quote_violet {
     background-color: $header__nav-list-link_active--color;
-    transform: rotate(-1deg);
+    transform: rotate(-2deg);
     top: -20px;
     left: 3px;
-    padding: 2px 14px;
+    padding: 2px 16px;
 }
 
 @media (min-width: 426px) {
-    .slider-2__quote_violet {
+    .party-like__quote_violet {
         top: 15px;
-        left: 70px;
+        left: 174px;
     }
 }
 
 @media (min-width: 769px) {
-    .slider-2__quote_violet {
-        top: 19px;
+    .party-like__quote_violet {
+        top: 67px;
     }
 }
 
 @media (min-width: 2000px) {
-    .slider-2__quote_violet {
+    .party-like__quote_violet {
         padding: calc(2px + 0.3vw) calc(14px + 0.2vw);
     }
 }

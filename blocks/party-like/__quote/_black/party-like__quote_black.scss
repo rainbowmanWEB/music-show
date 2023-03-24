@@ -1,13 +1,13 @@
-.slider-2__quote_black {
+.party-like__quote_black {
     background-color: $header__logo-decoration--bg;
     transform: rotate(-4deg);
-    top: 5px;
-    left: 3px;
-    padding: 2px 14px;
+    top: 58px;
+    left: 14px;
+    padding: 2px 18px;
 }
 
 @media (min-width: 2000px) {
-    .slider-2__quote_black {
+    .party-like__quote_black {
         padding: calc(2px + 0.3vw) calc(14px + 0.2vw);
     }
 }

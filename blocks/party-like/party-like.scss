@@ -1,0 +1,49 @@
+.party-like {
+    position: relative;
+    padding: 436px 215px 170px 215px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('../images/5block-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 16px 163px;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        width: 280px;
+        height: 268px;
+        position: absolute;
+        background-image: url('../images/stroke-2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: 1s linear infinite alternate slider-2__info-wrap_decoration-fence_Scale;
+        top: 411px;
+        left: -22px;
+        z-index: 1;
+    }
+
+    &::after {
+        content: "";
+        width: 386px;
+        height: 250px;
+        position: absolute;
+        background-image: url('../images/stroke-7.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: 2s linear infinite alternate slider-2__info-wrap_decoration-fence_Scale;
+        top: 575px;
+        right: -21px;
+        z-index: 1;
+    }
+}
+
+@keyframes party-like_decoration_Scale { 
+    0% { 
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(1.5);
+    }
+}

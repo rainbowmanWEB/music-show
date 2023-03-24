@@ -25,3 +25,4 @@ import photo_11 from './images/photo-11.jpg';
 import slider_2__wrap from './blocks/slider-2/__wrap/js/slider-2__wrap.js';
 import photo_9 from './images/photo-9.jpg';
 import block_bg_5 from './images/5block-bg.png';
+import stroke_7 from './images/stroke-7.png';
