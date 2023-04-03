@@ -1,12 +1,12 @@
 .party-your__info-wrap {
-    flex-basis: 49.5%;
+    flex-basis: 100%;
     background-color: $party-in-short--bg;
+    background-position: 97% -46px;
+    padding: 100px 20px 110px 20px;
+    position: relative;
     background-image: url('../images/6block-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 97% -46px;
-    padding: 239px 140px 238px 160px;
-    position: relative;
 
     &::after {
         content: "";
@@ -20,6 +20,7 @@
         top: 597px;
         transform: rotate(2deg);
         animation: 1s linear infinite alternate shake_party-your__info-wrap_arrow_after;
+        display: none;
     }
 }
 
@@ -38,5 +39,33 @@
     }
     100% {
         transform: translate(5%, 5%) rotate(2deg);
+    }
+}
+
+@media (min-width: 769px) {
+    .party-your__info-wrap {
+        flex-basis: 49.5%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .party-your__info-wrap {
+        padding: 239px 140px 238px 160px;
+
+        &::after {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .party-your__info-wrap {
+        padding: calc(239px + 0.5vw) calc(140px + 0.5vw) calc(238px + 0.5vw) calc(160px + 0.5vw);
+    
+        &::after {
+            content: "";
+            width: calc(97px + 0.5vw);
+            height: calc(167px + 0.5vw);
+        }
     }
 }

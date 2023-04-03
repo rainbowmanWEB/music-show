@@ -1,13 +1,19 @@
 .party-your__image-decoration {
     flex-basis: 50.5%;
-    height: 894px;
     background-image: url('../images/photo-10.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(1);
     transition: all 1s ease-out;
+    display: none;
 
     &:hover {
         filter: grayscale(0);
+    }
+}
+
+@media (min-width: 769px) {
+    .party-your__image-decoration {
+        display: block;
     }
 }
