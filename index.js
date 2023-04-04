@@ -1,5 +1,6 @@
 import './vendor/OwlCarousel2-2.3.4/dist/owl.carousel.js';
 import './vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css';
+import './vendor/OwlCarousel2-2.3.4/docs/assets/css/animate.css';
 import './scss/main.scss';
 import './js/main.js';
 import photo1 from './images/photo-1.jpg';
@@ -30,3 +31,4 @@ import block_bg_6 from './images/6block-bg.png';
 import stroke_8 from './images/stroke-8.png';
 import block_bg_7 from './images/7block-bg.png';
 import star from './images/icons/star.svg';
+import slider_3__wrap from './blocks/slider-3/__wrap/js/slider-3__wrap.js';

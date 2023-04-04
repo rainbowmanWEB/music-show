@@ -1,0 +1,58 @@
+.slider-3 {
+    .owl-prev {
+        position: absolute;
+        left: 50px;
+        top: none;
+        bottom: 50px;
+        background-image: url('../images/arrow.png')!important;
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        z-index: 3;
+        height: 100px;
+        width: 40px;
+        transform: rotate(90deg);
+        animation: 0.5s linear infinite alternate shake_owl-prev_arrow_slider-2;
+    }
+
+    .disabled {
+        display: none;
+    }
+}
+
+@keyframes shake_owl-prev_arrow_slider-2 { 
+    0% { 
+        transform: translate(0%, 0%) rotate(90deg);
+    } 
+    25% { 
+        transform: translate(-5%, -5%) rotate(90deg);
+    }
+    50% { 
+        transform: translate(5%, -5%) rotate(90deg);
+    }
+    75% { 
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    100% {
+        transform: translate(-5%, 5%) rotate(90deg);
+    }
+}
+
+@media (min-width: 1025px) {
+    .slider-3 {
+        .owl-prev {
+            left: 232px;
+            top: 407px;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-3 {
+        .owl-prev {
+            height: calc(100px + 0.5vw);
+            width: calc(50px + 0.5vw);
+            left: calc(232px + 0.5vw);
+            top: calc(407px + 0.8vw);
+        }
+    }
+}
