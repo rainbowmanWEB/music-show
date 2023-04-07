@@ -32,3 +32,4 @@ import stroke_8 from './images/stroke-8.png';
 import block_bg_7 from './images/7block-bg.png';
 import star from './images/icons/star.svg';
 import slider_3__wrap from './blocks/slider-3/__wrap/js/slider-3__wrap.js';
+import block_bg_8 from './images/8block-bg.png';

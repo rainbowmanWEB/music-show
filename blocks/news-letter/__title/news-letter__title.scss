@@ -1,0 +1,27 @@
+.news-letter__title {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: $header__logo-decoration--bg;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.13rem;
+    text-align: center;
+}
+
+@media (min-width: 426px) {
+    .news-letter__title {
+        font-size: 6.861rem;
+        line-height: 6.615rem;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .news-letter__title {
+        font-size: calc(6.861rem + 2vw);
+        line-height: calc(6.615rem + 2vw);
+        letter-spacing: calc(0.142rem + 0.05vw);
+    }
+}
