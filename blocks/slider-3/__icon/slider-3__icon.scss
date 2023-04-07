@@ -7,3 +7,10 @@
     transform: translate(-50%, -50%);
     fill: $body--bg;
 }
+
+@media (min-width: 2000px) {
+    .slider-3__icon {
+        height: calc(62px + 1.3vw);
+        width: calc(62px + 1.3vw);
+    }
+}

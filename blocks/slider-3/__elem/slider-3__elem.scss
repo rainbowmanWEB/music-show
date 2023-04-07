@@ -1,7 +1,31 @@
 .slider-3__elem {
-    padding: 260px 448px 300px 467px;
+    padding: 110px 20px 150px 20px;
     background-image: url('../images/7block-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: 0 -62px;
+}
+
+@media (min-width: 375px) {
+    .slider-3__elem {
+        padding: 110px 50px 200px 50px;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider-3__elem {
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1025px) {
+    .slider-3__elem {
+        padding: 260px 448px 300px 467px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .slider-3__elem {
+        padding: calc(260px + 0.3vw) calc(448px + 0.3vw) calc(300px + 0.3vw) calc(467px + 0.3vw);
+    }
 }

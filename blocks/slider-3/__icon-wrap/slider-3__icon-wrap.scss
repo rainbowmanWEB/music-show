@@ -7,3 +7,10 @@
     height: 93px;
     position: relative;
 }
+
+@media (min-width: 2000px) {
+    .slider-3__icon-wrap {
+        height: calc(93px + 1.5vw);
+        width: calc(93px + 1.5vw);
+    }
+}

@@ -1,8 +1,8 @@
 .slider-3 {
     .owl-next {
         position: absolute;
-        left: none;
-        top: none;
+        left: auto;
+        top: auto;
         bottom: 50px;
         right: 50px;
         background-image: url('../images/arrow.png')!important;
@@ -33,6 +33,7 @@
         transform: translate(5%, 5%) rotate(-90deg);
     }
 }
+
 
 @media (min-width: 1025px) {
     .slider-3 {

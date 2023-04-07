@@ -11,14 +11,15 @@
 
     &::after {
         content: "";
-        width: 600px;
-        height: 60px;
+        width: 280px;
+        height: 30px;
         position: absolute;
         background-image: url('../images/stroke-6.png');
         background-repeat: no-repeat;
         background-size: contain;
-        left: -52px;
-        bottom: -85px;
+        left: 50%;
+        bottom: -45px;
+        transform: translateX(-50%);
     }
 }
 
@@ -26,6 +27,12 @@
     .slider-3__text {
         font-size: 1.250rem;
         line-height: 1.5rem;
+
+        &::after {
+            width: 600px;
+            height: 60px;
+            bottom: -85px;
+        }
     }
 }
 
@@ -34,5 +41,11 @@
         font-size: calc(1.250rem + 0.5vw);
         line-height: calc(1.357rem + 0.5vw);
         letter-spacing: calc(-0.031rem + 0.05vw);
+
+        &::after {
+            width: calc(600px + 4.5vw);
+            height: calc(60px + 0.5vw);
+            bottom: calc(-85px - 0.7vw);
+        }
     }
 }
