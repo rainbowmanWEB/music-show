@@ -2,3 +2,9 @@
     resize: none;
     height: 302px;
 }
+
+@media (min-width: 2000px) {
+    .news-letter__textarea {
+        height: calc(302px + 1.5vw);
+    }
+}

@@ -1,7 +1,25 @@
 .news-letter__info-wrap {
-    flex-basis: 50.5%;
+    flex-basis: 100%;
     background-image: url('../images/8block-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 134px 130px 140px;
+    padding: 50px 20px 60px 20px;
+}
+
+@media (min-width: 769px) {
+    .news-letter__info-wrap {
+        padding: 120px 134px 130px 140px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .news-letter__info-wrap {
+        flex-basis: 50.5%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .news-letter__info-wrap {
+        padding: calc(120px + 0.3vw) calc(134px + 0.3vw) calc(130px + 0.3vw) calc(140px + 0.3vw);
+    }
 }

@@ -1,14 +1,20 @@
 .news-letter__image-decoration {
     flex-basis: 49.5%;
-    height: 900px;
     background-image: url('../images/photo-11.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(1);
     transition: all 1s ease-out;
+    display: none;
 
     &:hover {
         filter: grayscale(0);
     }
        
+}
+
+@media (min-width: 1025px) {
+    .news-letter__image-decoration {
+        display: block;
+    }
 }

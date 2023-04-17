@@ -3,11 +3,25 @@
     font-family: 'Monda', sans-serif;
     font-weight: 700;
     color: $party-in-short--bg;
-    font-size: 1.242rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     padding: 14px 0;
     margin-top: 25px;
     border: none;
     border-radius: 42px;
     cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .news-letter__submit {
+        font-size: 1.242rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .news-letter__submit {
+        font-size: calc(1.242rem + 0.5vw);
+        padding: calc(14px + 0.1vw) calc(0px + 0.1vw);
+        margin-top: calc(25px + 0.3vw);
+    }
 }
