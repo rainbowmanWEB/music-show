@@ -1,0 +1,13 @@
+.footer__learn-more-link {
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    font-size: 1.1421rem;
+    text-transform: uppercase;
+    color: $party-in-short--bg;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

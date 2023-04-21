@@ -1,0 +1,18 @@
+.footer__learn-more-title {
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    font-size: 1.2421rem;
+    text-transform: uppercase;
+    color: $party-in-short--bg;
+    cursor: pointer;
+
+    &::after {
+        content: "";
+        width: 18px;
+        height: 18px;
+        background-color: $party-in-short--bg;
+        margin-left: 24px;
+        display: inline-block;
+        clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    }
+}

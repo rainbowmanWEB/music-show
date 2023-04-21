@@ -1,0 +1,5 @@
+.footer__learn-more-title_active {
+    &::after {
+        transform: rotateX(180deg);
+    }
+}

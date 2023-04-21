@@ -33,3 +33,5 @@ import block_bg_7 from './images/7block-bg.png';
 import star from './images/icons/star.svg';
 import slider_3__wrap from './blocks/slider-3/__wrap/js/slider-3__wrap.js';
 import block_bg_8 from './images/8block-bg.png';
+import block_bg_9 from './images/9block-bg.png';
+import learn_more from './blocks/footer/__learn-more/js/footer__learn-more.js';
