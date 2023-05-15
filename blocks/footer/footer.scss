@@ -2,8 +2,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 144px 120px 148px 118px;
+    padding: 50px 5px 200px;
     background-image: url('../images/9block-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: 0% 100%;
+}
+
+@media (min-width: 426px) {
+    .footer {
+        padding: 70px 120px 60px 118px;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer {
+        padding: 144px 120px 143px 118px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer {
+        padding: calc(144px + 0.3vw) calc(120px + 0.3vw) calc(143px + 0.3vw) calc(118px + 0.3vw);
+        background-size: cover;
+        background-position: 0% -96%;
+    }
 }

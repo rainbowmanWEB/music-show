@@ -1,7 +1,7 @@
 .footer__learn-more-link {
     font-family: 'Monda', sans-serif;
     font-weight: 700;
-    font-size: 1.1421rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     color: $party-in-short--bg;
     cursor: pointer;
@@ -9,5 +9,17 @@
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer__learn-more-link {
+        font-size: 1.1421rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__learn-more-link {
+        font-size: calc(1.1421rem + 0.5vw);
     }
 }

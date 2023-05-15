@@ -1,7 +1,7 @@
 .footer__learn-more-title {
     font-family: 'Monda', sans-serif;
     font-weight: 700;
-    font-size: 1.2421rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color: $party-in-short--bg;
     cursor: pointer;
@@ -14,5 +14,22 @@
         margin-left: 24px;
         display: inline-block;
         clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    }
+}
+
+@media (min-width: 769px) {
+    .footer__learn-more-title {
+        font-size: 1.2421rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__learn-more-title {
+        font-size: calc(1.2421rem + 0.5vw);
+        
+        &::after {
+            width: calc(18px + 0.5vw);
+            height: calc(18px + 0.5vw);
+        }
     }
 }

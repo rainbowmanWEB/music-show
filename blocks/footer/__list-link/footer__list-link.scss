@@ -1,12 +1,26 @@
 .footer__list-link {
     font-family: 'Monda', sans-serif;
     font-weight: 400;
-    font-size: 1.783rem;
-    line-height: 3.864rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     color: $header__logo-decoration--bg;
     text-decoration: none;
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer__list-link {
+        font-size: 1.783rem;
+        line-height: 3.864rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer__list-link {
+        font-size: calc(1.783rem + 0.5vw);
+        line-height: calc(3.864rem + 0.5vw);
     }
 }

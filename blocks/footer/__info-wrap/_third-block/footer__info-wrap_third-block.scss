@@ -1,3 +1,9 @@
 .footer__info-wrap_third-block {
-    margin-left: 14px;
+    margin-left: 0;
+}
+
+@media (min-width: 769px) {
+    .footer__info-wrap_third-block {
+        margin-left: 14px;
+    }
 }

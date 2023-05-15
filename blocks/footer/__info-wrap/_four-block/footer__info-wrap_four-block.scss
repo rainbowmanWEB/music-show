@@ -1,4 +1,9 @@
 .footer__info-wrap_four-block {
-    margin-right: -20px;
     padding-right: 0;
+}
+
+@media (min-width: 769px) {
+    .footer__info-wrap_four-block {
+        margin-right: -20px;
+    }
 }

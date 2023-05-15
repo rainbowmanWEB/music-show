@@ -1,6 +1,15 @@
 .footer__logo {
-    position: relative;
-    transform: scale(1.4);
-    left: 35px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 47%;
     top: 47px;
+}
+
+@media (min-width: 769px) {
+    .footer__logo {
+        position: relative;
+        transform: scale(1.4);
+        left: 35px;
+        top: 47px;
+    }
 }

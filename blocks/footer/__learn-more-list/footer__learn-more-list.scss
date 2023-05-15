@@ -2,3 +2,10 @@
     border-top: 2px solid $party-in-short--bg;
     padding-top: 15px!important;
 }
+
+@media (min-width: 2000px) {
+    .footer__learn-more-list {
+        padding-top: calc(15px + 0.3vw)!important;
+        border-top: calc(2px + 0.1vw) solid $party-in-short--bg;
+    }
+}
